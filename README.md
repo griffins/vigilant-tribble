@@ -20,13 +20,13 @@ For testing use `log` as the maildriver. Emails will be logged to `storage/logs/
 
 ## API
 ```
-+----------+-------------------------+------------------------------------------------------------+------------+
-| Method   | URI                     | Action                                                     | Middleware |
-+----------+-------------------------+------------------------------------------------------------+------------+
-| POST     | api/mailing/subscribe   | App\Http\Controllers\SubscriptionController@subscribe      | api        |
-| POST     | api/mailing/unsubscribe | App\Http\Controllers\SubscriptionController@unsubscribe    | api        |
-| POST     | api/post/create         | App\Http\Controllers\PostController@create                 | api        |
-+----------+-------------------------+------------------------------------------------------------+------------+
++----------+-------------------------+------------------------------------------------------------+
+| Method   | URI                     | Action                                                     |
++----------+-------------------------+------------------------------------------------------------+
+| POST     | api/mailing/subscribe   | App\Http\Controllers\SubscriptionController@subscribe      |
+| POST     | api/mailing/unsubscribe | App\Http\Controllers\SubscriptionController@unsubscribe    |
+| POST     | api/post/create         | App\Http\Controllers\PostController@create                 |
++----------+-------------------------+------------------------------------------------------------+
 ```
 
 ```
