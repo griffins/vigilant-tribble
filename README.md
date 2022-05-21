@@ -39,7 +39,7 @@ params:
  ```
  
 ```
-POST /mailing/subscribe 
+POST /api/mailing/subscribe 
 
 params:
     - userId
@@ -47,7 +47,7 @@ params:
  ```
  
  ```
-POST /mailing/unsubscribe 
+POST /api/mailing/unsubscribe 
 
 params:
     - userId
